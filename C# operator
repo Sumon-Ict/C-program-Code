@@ -1,0 +1,32 @@
+ long v3, v4;
+            Console.WriteLine("entrer the values");
+
+            v3 = Convert.ToInt64(Console.ReadLine());
+
+
+            v4 = Convert.ToInt64(Console.ReadLine());
+
+            var sum = v3 + v4;
+            var mul = v3 * v4;
+            var sub = v3 - v4;
+            var div = v3 / v4;
+            var mod = v3 % v4;
+
+            var inc = v3++;  // v3=23 than inc=23 and v3= 24
+
+            var prein = ++v4; //  v4=10 than prein= 12 
+
+
+            var f = 12;
+            f += 34;   //  f=f+34;
+
+            f -= 4;  // means f=f-4;
+
+            var and = v3 & v4;  // convert binary number, add operation than produce decimal output
+
+            var or = v3 | v4; // convert binary number, or operatioon than produce decimal output
+
+
+            var leftso = v3 << 3;  // convert binary and shift 3 bit in left and output deciml number
+            var rightso = v3 >> 3; // shift 3 bit right and decimal output
+            #endregion
