@@ -1,0 +1,35 @@
+        {
+        myfun();
+            fun("sumon");
+
+            f2("sujon", 34);
+
+            var result = multifly(234.5, 76.90);
+
+            Console.WriteLine("the multiply of the number is " + result);
+
+        }
+
+        static void f2(string str,int d)
+        {
+            Console.WriteLine($" student name is {str} ans age is {d}");
+
+        }
+        static void fun(string s1)
+        {
+            Console.WriteLine("my name is " + s1);
+
+        }
+
+        static void myfun()
+        {
+            string str;
+            str = Console.ReadLine();
+            Console.WriteLine($" my name is {str}");
+
+        }
+        static double multifly(double num,double num2)
+        {
+            var result = num * num2;
+            return result;
+        }
