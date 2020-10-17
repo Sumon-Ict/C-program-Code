@@ -1,0 +1,9 @@
+string[] names = { "sumon", "sujon", "rahim", "kjhjgjgkk" };
+
+
+            foreach(string i in names)
+            {
+                Console.WriteLine(i);
+
+            }
+            
