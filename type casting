@@ -1,0 +1,11 @@
+
+            double v = 23.56;
+            string st = Convert.ToString(v);
+
+            int a = Convert.ToInt32(v);
+
+            char ch = Convert.ToChar(v);
+
+            bool b = Convert.ToBoolean(v);
+
+            short s1 = Convert.ToInt16(v);
