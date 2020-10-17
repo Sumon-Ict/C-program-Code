@@ -1,0 +1,22 @@
+string txt = Console.ReadLine();
+            string txt2 = Console.ReadLine();
+
+
+            int len = txt.Length;
+            string add = string.Concat(txt, txt2);
+
+            Console.WriteLine(add);
+            Console.WriteLine(txt.ToLower());
+            Console.WriteLine(txt2.ToUpper());
+
+            Console.WriteLine($" the two strug are {txt} and {txt2}");
+
+            Console.WriteLine("my name is \"sumon\" ");
+
+            Console.WriteLine("my name is \'sujon\'");
+            Console.WriteLine("my countrty name is \\ Bangladesh");
+
+            Console.WriteLine("my friend name is \n momin");
+            Console.WriteLine("my father name is \t sirajul");
+
+            #endregion
