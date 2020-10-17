@@ -1,0 +1,5 @@
+long[] data = { 2345, 56, 78, 9766 };
+
+            Console.WriteLine(data.Sum());
+            Console.WriteLine(data.Max());
+            Console.WriteLine(data.Min());
