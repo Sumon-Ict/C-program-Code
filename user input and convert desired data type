@@ -1,0 +1,37 @@
+
+{
+#region  user input
+            string str;
+            Console.WriteLine("enter the vallue of string");
+            str = Console.ReadLine();
+
+            Console.WriteLine($" welcome  {str} to our course ");
+
+            double d1, d2;
+            d1 = Convert.ToDouble(Console.ReadLine()); // user input and convert string to double
+            d2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine($"the age of two boys are {d1} and {d2}");
+
+
+            var v1 = Console.ReadLine();  // user input is all time string ,
+            var v2 = Console.ReadLine();
+
+            var re = Convert.ToDouble(v1) * Convert.ToDouble(v2); // user string convert to desired data type
+            Console.WriteLine(re);
+
+
+
+            var r = multifly(234.4, 879);
+            Console.WriteLine($"multiply result of two values is {r}");
+
+
+            #endregion
+
+        }
+
+        static double multifly(double num,double num2)
+        {
+            var result = num * num2;
+            return result;
+        }
