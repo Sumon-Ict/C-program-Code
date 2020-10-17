@@ -1,0 +1,8 @@
+
+            int max = Math.Max(23, 67);
+            int min = Math.Min(45, 12);
+            int abs = Math.Abs(-23);
+
+            double sq = Math.Sqrt(53);
+            double pow = Math.Pow(12, 23);
+            double sr = Math.Round(234.89);
