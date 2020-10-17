@@ -1,0 +1,30 @@
+ int time =4;
+            switch(time)
+            {
+                case 1:
+                    Console.WriteLine("saterday");
+                    break;
+                case 2:
+                    Console.WriteLine("sunday");
+                    break;
+
+                case 3:
+                    Console.WriteLine("monday");
+                    break;
+                case 4:
+                    Console.WriteLine("tuesday");
+                    break;
+                case 5:
+                    Console.WriteLine("wednesday");
+                    break;
+                case 6:
+                    Console.WriteLine("thusday");
+                    break;
+                default:
+                    Console.WriteLine("friday");
+                    break;
+
+
+
+            }
+            #endregion
