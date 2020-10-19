@@ -1,0 +1,19 @@
+int[][] jaggedarray = new int[3][];
+
+            jaggedarray[0] = new int[5];
+            jaggedarray[1] = new int[3];
+            jaggedarray[2] = new int[4];
+
+
+            jaggedarray[0] = new int[] { 34, 56, 12, 45 };
+            jaggedarray[1] = new int[] { 12, 34, 56 };
+            jaggedarray[2] = new int[] { 789, 456, 123, 456 };
+            
+
+            for(int i=0;i<3;i++)
+            {
+
+                Console.WriteLine(jaggedarray[i]);
+
+            }
+
