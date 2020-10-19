@@ -16,4 +16,11 @@ int[][] jaggedarray = new int[3][];
                 Console.WriteLine(jaggedarray[i]);
 
             }
+            
+            
+             int[][,] jagged = new int[5][,];
+            jagged[0] = new int[2, 2] { { 23, 2 }, { 56, 7 } };
+            jagged[1] = new int[3, 3] { { 12, 34, 5 }, { 34, 56, 78 }, { 90, 87, 56 } };
+
+            Console.WriteLine(jagged[0][1,2]);
 
